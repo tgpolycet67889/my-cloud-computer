@@ -1,0 +1,11 @@
+{
+  "name": "4-Core Cloud Android",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu-22.04",
+  "features": {
+    "ghcr.io/devcontainers/features/docker-in-docker:2": {}
+  },
+  "runArgs": [
+    "--privileged"
+  ],
+  "forwardPorts": [6080, 8000]
+}
